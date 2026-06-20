@@ -1,0 +1,27 @@
+{
+  "name": "imagegen-codex",
+  "owner": {
+    "name": "Sai Teja Mothukuri"
+  },
+  "metadata": {
+    "description": "imagegen-codex — generate images via Codex CLI's image_gen, no OPENAI_API_KEY needed.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "imagegen-codex",
+      "source": "./",
+      "description": "Generate/save images by delegating to Codex CLI's built-in image_gen tool (uses ChatGPT/Codex login, no paid MCP credits). Slash command /imagegen-codex.",
+      "keywords": [
+        "image-generation",
+        "codex",
+        "openai",
+        "image-gen",
+        "ai-images",
+        "batch"
+      ],
+      "category": "productivity",
+      "version": "1.0.0"
+    }
+  ]
+}

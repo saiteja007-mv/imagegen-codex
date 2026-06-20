@@ -1,0 +1,38 @@
+{
+  "name": "imagegen-codex",
+  "version": "1.0.0",
+  "description": "Generate images via Codex CLI's built-in image_gen (no OPENAI_API_KEY, no paid credits). One-command installer for the imagegen-codex Claude Code / agent skill.",
+  "type": "module",
+  "bin": {
+    "imagegen-codex": "bin/install.mjs"
+  },
+  "files": [
+    "bin/",
+    "commands/",
+    "skills/",
+    ".claude-plugin/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "image-generation",
+    "codex",
+    "openai",
+    "claude-code",
+    "agent-skill",
+    "image-gen",
+    "ai-images",
+    "batch"
+  ],
+  "author": {
+    "name": "Sai Teja Mothukuri"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/saiteja007-mv/imagegen-codex",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saiteja007-mv/imagegen-codex.git"
+  }
+}

@@ -1,0 +1,11 @@
+# Keep the published tarball lean — the "files" whitelist in package.json
+# is primary; this is belt-and-suspenders.
+.git
+.gitignore
+node_modules
+.env
+*.log
+.vscode
+.idea
+.DS_Store
+Thumbs.db
