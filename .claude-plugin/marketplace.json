@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "imagegen-codex — generate images via Codex CLI's image_gen, no OPENAI_API_KEY needed.",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "plugins": [
     {
@@ -21,7 +21,7 @@
         "batch"
       ],
       "category": "productivity",
-      "version": "1.0.0"
+      "version": "1.0.1"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "imagegen-codex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate/save images by delegating to the Codex CLI's built-in image_gen tool. No OPENAI_API_KEY, no paid MCP credits — uses the user's ChatGPT/Codex login. Great for batch asset generation from a script's prompt list.",
   "author": {
     "name": "Sai Teja Mothukuri"
